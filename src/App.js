@@ -1,27 +1,25 @@
 import './App.css';
+import Header from './Component/Header';
+import MoviesList from "./Component/MovieList.json";
+import Movies from "./Component/Movies";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+      < Header/>
+     <div className="main">
+
+      {
+        MoviesList.map((element) => {
+          return (
+             <Movies title = {element.Title} 
+              year = {element.Year}
+              poster = {element.Poster} />
+          );
+        })
+      }
+
+     </div>
     </div>
   );
 }
