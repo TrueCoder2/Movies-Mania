@@ -128,5 +128,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # folder not important
+.vscode/
+.devcontainer/
 /.vscode
 /.devcontainer
