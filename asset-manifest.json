@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Movies-Mania/static/css/main.6fed44a0.css",
+    "main.js": "/Movies-Mania/static/js/main.cc6dd738.js",
+    "static/js/496.0320d045.chunk.js": "/Movies-Mania/static/js/496.0320d045.chunk.js",
+    "index.html": "/Movies-Mania/index.html",
+    "main.6fed44a0.css.map": "/Movies-Mania/static/css/main.6fed44a0.css.map",
+    "main.cc6dd738.js.map": "/Movies-Mania/static/js/main.cc6dd738.js.map",
+    "496.0320d045.chunk.js.map": "/Movies-Mania/static/js/496.0320d045.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fed44a0.css",
+    "static/js/main.cc6dd738.js"
+  ]
+}
